@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Login_app</string>
+    <string name="record">Record</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="log_in">Log In</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="lms">LMS</string>
+    <string name="sports">SPORTS</string>
+    <string name="clubs_and_societies">CLUBS AND SOCIETIES</string>
+    <string name="button">Button</string>
+    <string name="location">LOCATION</string>
+</resources>

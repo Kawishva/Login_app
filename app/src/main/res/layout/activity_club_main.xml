@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/club_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/interfaceback"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/clubs"
+        android:layout_width="315dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:background="#43673AB7"
+        android:text="KDU CLUBS"
+        android:textSize="55dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/club_logo"
+        android:layout_width="79dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/clubs"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_connect_without_contact_24" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="413dp"
+        android:layout_height="231dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clubs"
+        app:srcCompat="@drawable/dirstpic" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="403dp"
+        android:layout_height="525dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="13dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Photography_btn"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:backgroundTint="#94673AB7"
+                android:drawableBottom="@drawable/ic_baseline_camera_alt_24"
+                android:text="PHOTOGRAPY CLUB"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/Echoclub_btn"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-200dp"
+                android:backgroundTint="#94673AB7"
+                android:drawableBottom="@drawable/ic_baseline_eco_24"
+                android:text="ECHO CLUB"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/Chessclub_btn"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:backgroundTint="#94673AB7"
+                android:drawableBottom="@drawable/ic_baseline_pin_drop_24"
+                android:text="CHESS CLUB"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/Dancingclub_btn"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-200dp"
+                android:backgroundTint="#94673AB7"
+                android:drawableBottom="@drawable/ic_baseline_directions_walk_24"
+                android:text="DANCING CLUB"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/TMclub_btn"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:backgroundTint="#94673AB7"
+                android:drawableBottom="@drawable/ic_baseline_emoji_emotions_24"
+                android:text=" Toast Masters CLUB"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/Eclub_btn"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-200dp"
+                android:backgroundTint="#94673AB7"
+                android:drawableBottom="@drawable/ic_baseline_desktop_windows_24"
+                android:text="E CLUB"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/ARclub_btn"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:backgroundTint="#94673AB7"
+                android:drawableBottom="@drawable/ic_baseline_adjust_24"
+                android:text="AIR RIFLE CLUB"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/Bridgeclub_btn"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-200dp"
+                android:backgroundTint="#94673AB7"
+                android:drawableBottom="@drawable/ic_baseline_auto_awesome_motion_24"
+                android:text="BRIDGE CLUB"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/Rowingclub_btn"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:backgroundTint="#94673AB7"
+                android:drawableBottom="@drawable/ic_baseline_anchor_24"
+                android:text="ROWING CLUB"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/Rotaractclub_btn"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-200dp"
+                android:backgroundTint="#94673AB7"
+                android:drawableBottom="@drawable/ic_baseline_people_alt_24"
+                android:text="ROTARACT CLUB"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/Scoutclub_btn"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="100dp"
+                android:backgroundTint="#94673AB7"
+                android:drawableBottom="@drawable/ic_baseline_diversity_2_24"
+                android:text="ROVER SCOUT CLUB"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
