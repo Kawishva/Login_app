@@ -31,20 +31,21 @@
         android:layout_width="56dp"
         android:layout_height="47dp"
         android:layout_marginStart="81dp"
+        android:layout_marginLeft="81dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
         android:background="#8BFFEB3B"
         android:drawableTop="@drawable/ic_baseline_account_box_24"
-        android:text="24"
+        android:gravity="center_horizontal"
+        android:text="Members : 24"
         android:textAlignment="center"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/photgrahpyC"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="81dp"
-        android:layout_marginRight="20dp"
-        android:gravity="center_horizontal" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/infobtn"

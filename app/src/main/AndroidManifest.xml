@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login_app">
         <activity
+            android:name=".Registerr"
+            android:exported="false" />
+        <activity
+            android:name=".Sports"
+            android:exported="false" />
+        <activity
             android:name=".location_int"
             android:exported="false" />
         <activity

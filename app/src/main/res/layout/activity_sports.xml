@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sports_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:visibility="visible"
+    tools:context=".Sports">
+
+
+    <TextView
+        android:id="@+id/sports"
+        android:layout_width="375dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:text="KDU SPORTS"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="403dp"
+        android:layout_height="800dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sports"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/cricket"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:backgroundTint="#94673AB7"
+
+                android:text="CRICKET"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:ignore="RtlCompat" />
+
+            <Button
+                android:id="@+id/basketball"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="-200dp"
+                android:backgroundTint="#94673AB7"
+
+                android:text="BASKETBALL"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:ignore="RtlCompat" />
+
+            <Button
+                android:id="@+id/football"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:backgroundTint="#94673AB7"
+
+                android:text="FOOTBALL"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:ignore="RtlCompat" />
+
+            <Button
+                android:id="@+id/netball"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="-200dp"
+                android:backgroundTint="#94673AB7"
+                android:text="NETBALL"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:ignore="RtlCompat" />
+
+            <Button
+                android:id="@+id/ttennis"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:backgroundTint="#94673AB7"
+
+                android:text="TABLE TENNIS"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                tools:ignore="RtlCompat" />
+
+            <Button
+                android:id="@+id/tennis"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="-200dp"
+                android:backgroundTint="#94673AB7"
+                android:text="TENNIS"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginLeft="200dp"
+                tools:ignore="RtlCompat" />
+
+
+            <Button
+                android:id="@+id/volleyball"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:backgroundTint="#94673AB7"
+                android:text="VOLLEYBALL"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:ignore="RtlCompat" />
+
+            <Button
+                android:id="@+id/badminton"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="-200dp"
+                android:backgroundTint="#94673AB7"
+
+                android:text="BADMINTON"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:ignore="RtlCompat" />
+
+
+            <Button
+                android:id="@+id/squash"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:backgroundTint="#94673AB7"
+                android:text="SQUASH"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/swimming"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="-200dp"
+                android:backgroundTint="#94673AB7"
+                android:text="SWIMMING"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:ignore="RtlCompat" />
+
+            <Button
+                android:id="@+id/karate"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+
+                android:backgroundTint="#94673AB7"
+                android:text="KARATE"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:ignore="RtlCompat" />
+
+            <Button
+                android:id="@+id/rugby"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="-200dp"
+                android:backgroundTint="#94673AB7"
+                android:text="RUGBY"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:ignore="RtlCompat" />
+
+            <Button
+                android:id="@+id/archery"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:backgroundTint="#94673AB7"
+                android:text="ARCHERY"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:ignore="RtlCompat" />
+
+            <Button
+                android:id="@+id/gymnastics"
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="-200dp"
+                android:backgroundTint="#94673AB7"
+                android:text="GYMNASTICS"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:ignore="RtlCompat" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

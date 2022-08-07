@@ -1,5 +1,6 @@
 package com.example.login_app;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -9,7 +10,7 @@ import android.widget.Button;
 
 public class HomePage extends AppCompatActivity {
 
-    private Button lms,club_btn,location_btn;
+    private Button lms,club_btn,location_btn,sports;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +41,16 @@ public class HomePage extends AppCompatActivity {
                 openClub_main();
             }
         });
+    sports=(Button)findViewById(R.id.sports);
+    sports.setOnClickListener(new View.OnClickListener(){
 
+        @Override
+
+
+        public void onClick(View v){
+            openSports();
+        }
+    });
     }
 
     public void openLMS_MainActivity2(){
@@ -53,7 +63,10 @@ public class HomePage extends AppCompatActivity {
         Intent intent =new Intent(this,Club_main.class);
         startActivity(intent);
     }
-
+    public void openSports(){
+        Intent intent=new Intent(this,Sports.class);
+        startActivity(intent);
+    }
     public void openlocation_interface()
     {
         Intent intent =new Intent(this,location_int.class);

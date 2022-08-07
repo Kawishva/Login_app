@@ -23,7 +23,7 @@ public class Club_main extends AppCompatActivity {
         Photography_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openPhotographyclub_interface();
+                openPhotography_club();
             }
         });
 
@@ -31,7 +31,7 @@ public class Club_main extends AppCompatActivity {
         Echoclub_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openEchoclub_interface();
+                openEcho_club();
             }
         });
 
@@ -109,13 +109,13 @@ public class Club_main extends AppCompatActivity {
 
     }
 
-    public void openPhotographyclub_interface()
+    public void openPhotography_club()
     {
         Intent intent=new Intent(this, Photography_club.class);
         startActivity(intent);
     }
 
-    public void openEchoclub_interface()
+    public void openEcho_club()
     {
         Intent intent=new Intent(this, Echo_club.class);
         startActivity(intent);

@@ -1,6 +1,8 @@
 package com.example.login_app;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -16,17 +18,27 @@ public class MainActivity extends AppCompatActivity {
     private String password;
 
     boolean isValid = false;
-    //private button register;
+    private Button signup;
 
+    @SuppressLint("CutPasteId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        signup=(Button)findViewById(R.id.signup);
+        signup.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                openRegister();
+            }
+        });
+
         eEmail = findViewById(R.id.editTextTextEmailAddress);
         ePassword = findViewById(R.id.editTextTextPassword);
-        Button eLogin = findViewById(R.id.button);
-        Button eRegister = findViewById(R.id.register);
+        Button eLogin = findViewById(R.id.signup);
+        //Button eRegister = findViewById(R.id.register);
+
 
         eLogin.setOnClickListener(view -> {
             String inputEmail = eEmail.getText().toString();
@@ -37,20 +49,19 @@ public class MainActivity extends AppCompatActivity {
                 //Code to direct to home page must be put here!!!
                 Intent intent = new Intent(MainActivity.this, HomePage.class);
                 startActivity(intent);
-            } else {
+            }
+            else {
                 //Toast.makeText(MainActivity.this,"Please enter Email or Password correctly", Toast.LENGTH_SHORT).show();
                 Toast.makeText(MainActivity.this, "Incorrect Email or Password", Toast.LENGTH_SHORT).show();
             }
 
         });
 
-        eRegister.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this,Register.class);
-            startActivity(intent);
-        });
-
-
-
+        //ERROR!
+    }
+    public void openRegister(){
+        Intent intent=new Intent(this,Registerr.class);
+        startActivity(intent);
     }
 
 }
