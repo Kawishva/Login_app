@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "608844150089",
+    "firebase_url": "https://kdu-app-c9aa7-default-rtdb.firebaseio.com",
+    "project_id": "kdu-app-c9aa7",
+    "storage_bucket": "kdu-app-c9aa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608844150089:android:2cd12284ee68c3a63e5698",
+        "android_client_info": {
+          "package_name": "com.example.login_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608844150089-g6m59fc4teph3to3nt88amugdkaqrk3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8AQ4EyPy1asoBu2Wz9QmXLL8xUdTVppA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608844150089-g6m59fc4teph3to3nt88amugdkaqrk3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

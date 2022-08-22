@@ -7,7 +7,6 @@
     android:id="@+id/sports_main"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-
     android:visibility="visible"
     tools:context=".Sports">
 
@@ -48,10 +47,10 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/cricket"
+                android:id="@+id/photography"
                 android:layout_width="190dp"
                 android:layout_height="200dp"
-                android:backgroundTint="#94673AB7"
+                android:backgroundTint="#1f2240"
 
                 android:text="CRICKET"
                 android:textAlignment="center"
@@ -64,8 +63,7 @@
                 android:layout_height="200dp"
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="-200dp"
-                android:backgroundTint="#94673AB7"
-
+                android:backgroundTint="#1f2240"
                 android:text="BASKETBALL"
                 android:textAlignment="center"
                 android:textSize="20sp"
@@ -75,8 +73,7 @@
                 android:id="@+id/football"
                 android:layout_width="190dp"
                 android:layout_height="200dp"
-                android:backgroundTint="#94673AB7"
-
+                android:backgroundTint="#1f2240"
                 android:text="FOOTBALL"
                 android:textAlignment="center"
                 android:textSize="20sp"
@@ -88,7 +85,7 @@
                 android:layout_height="200dp"
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="-200dp"
-                android:backgroundTint="#94673AB7"
+                android:backgroundTint="#1f2240"
                 android:text="NETBALL"
                 android:textAlignment="center"
                 android:textSize="20sp"
@@ -98,7 +95,7 @@
                 android:id="@+id/ttennis"
                 android:layout_width="190dp"
                 android:layout_height="200dp"
-                android:backgroundTint="#94673AB7"
+                android:backgroundTint="#1f2240"
 
                 android:text="TABLE TENNIS"
                 android:textAlignment="center"
@@ -111,7 +108,7 @@
                 android:layout_height="200dp"
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="-200dp"
-                android:backgroundTint="#94673AB7"
+                android:backgroundTint="#1f2240"
                 android:text="TENNIS"
                 android:textAlignment="center"
                 android:textSize="20sp"
@@ -123,7 +120,7 @@
                 android:id="@+id/volleyball"
                 android:layout_width="190dp"
                 android:layout_height="200dp"
-                android:backgroundTint="#94673AB7"
+                android:backgroundTint="#1f2240"
                 android:text="VOLLEYBALL"
                 android:textAlignment="center"
                 android:textSize="20sp"
@@ -135,7 +132,7 @@
                 android:layout_height="200dp"
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="-200dp"
-                android:backgroundTint="#94673AB7"
+                android:backgroundTint="#1f2240"
 
                 android:text="BADMINTON"
                 android:textAlignment="center"
@@ -147,10 +144,11 @@
                 android:id="@+id/squash"
                 android:layout_width="190dp"
                 android:layout_height="200dp"
-                android:backgroundTint="#94673AB7"
+                android:backgroundTint="#1f2240"
                 android:text="SQUASH"
                 android:textAlignment="center"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
 
             <Button
                 android:id="@+id/swimming"
@@ -158,7 +156,7 @@
                 android:layout_height="200dp"
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="-200dp"
-                android:backgroundTint="#94673AB7"
+                android:backgroundTint="#1f2240"
                 android:text="SWIMMING"
                 android:textAlignment="center"
                 android:textSize="20sp"
@@ -169,7 +167,7 @@
                 android:layout_width="190dp"
                 android:layout_height="200dp"
 
-                android:backgroundTint="#94673AB7"
+                android:backgroundTint="#1f2240"
                 android:text="KARATE"
                 android:textAlignment="center"
                 android:textSize="20sp"
@@ -181,7 +179,7 @@
                 android:layout_height="200dp"
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="-200dp"
-                android:backgroundTint="#94673AB7"
+                android:backgroundTint="#1f2240"
                 android:text="RUGBY"
                 android:textAlignment="center"
                 android:textSize="20sp"
@@ -191,7 +189,7 @@
                 android:id="@+id/archery"
                 android:layout_width="190dp"
                 android:layout_height="200dp"
-                android:backgroundTint="#94673AB7"
+                android:backgroundTint="#1f2240"
                 android:text="ARCHERY"
                 android:textAlignment="center"
                 android:textSize="20sp"
@@ -203,7 +201,7 @@
                 android:layout_height="200dp"
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="-200dp"
-                android:backgroundTint="#94673AB7"
+                android:backgroundTint="#1f2240"
                 android:text="GYMNASTICS"
                 android:textAlignment="center"
                 android:textSize="20sp"

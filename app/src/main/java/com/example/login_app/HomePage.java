@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -17,11 +18,12 @@ public class HomePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
 
-        lms=(Button)findViewById(R.id.lms);
-        lms.setOnClickListener(new View.OnClickListener() {
+        lms=findViewById(R.id.lms);
+        lms.setOnClickListener(new View.OnClickListener(){
+
             @Override
             public void onClick(View v) {
-                openLMS_MainActivity2();
+                gotoUrl("https://nw.lms.kdu.ac.lk/lms");
             }
         });
 
@@ -51,6 +53,11 @@ public class HomePage extends AppCompatActivity {
             openSports();
         }
     });
+    }
+
+    private void gotoUrl(String s) {
+        Uri uri=Uri.parse(s);
+        startActivity(new Intent(Intent.ACTION_VIEW,uri));
     }
 
     public void openLMS_MainActivity2(){
