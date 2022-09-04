@@ -34,12 +34,14 @@
             android:layout_marginRight="32dp"
             android:layout_marginBottom="40dp"
             android:text="@string/lms"
+            android:textColor="#ECE1E1"
             android:textSize="24sp"
             app:backgroundTint="#080D3C"
             app:cornerRadius="@dimen/_20sdp"
             app:icon="@drawable/lms"
             app:iconGravity="textTop"
             app:iconSize="@dimen/_120sdp"
+            app:iconTint="#EFE7E7"
             tools:ignore="MissingConstraints" />
 
 
@@ -54,12 +56,14 @@
             android:layout_marginRight="150dp"
             android:layout_marginBottom="40dp"
             android:text="@string/sports"
+            android:textColor="#F1EAEA"
             android:textSize="24sp"
             app:backgroundTint="#080D3C"
             app:cornerRadius="@dimen/_20sdp"
             app:icon="@drawable/sports"
             app:iconGravity="textTop"
             app:iconSize="@dimen/_120sdp"
+            app:iconTint="#F6F0F0"
             tools:ignore="MissingConstraints" />
 
         <Button
@@ -73,17 +77,19 @@
             android:layout_marginRight="30dp"
             android:layout_marginBottom="28dp"
             android:text="@string/clubs_and_societies"
+            android:textColor="#F6F0F0"
             android:textSize="20sp"
             app:backgroundTint="#080D3C"
             app:cornerRadius="@dimen/_20sdp"
             app:icon="@drawable/clubs"
             app:iconGravity="textTop"
-            app:iconSize="@dimen/_120sdp" />
+            app:iconSize="@dimen/_120sdp"
+            app:iconTint="#EFE9E9" />
 
         <Button
             android:id="@+id/map"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:layout_height="259dp"
             android:layout_marginStart="200dp"
             android:layout_marginLeft="200dp"
             android:layout_marginTop="300dp"
@@ -91,12 +97,14 @@
             android:layout_marginRight="150dp"
             android:layout_marginBottom="28dp"
             android:text="@string/location"
+            android:textColor="#F1E9E9"
             android:textSize="20sp"
             app:backgroundTint="#080D3C"
             app:cornerRadius="20dp"
             app:icon="@drawable/map"
             app:iconGravity="textTop"
             app:iconSize="@dimen/_120sdp"
+            app:iconTint="#ECE2E2"
             tools:ignore="MissingConstraints" />
     </androidx.cardview.widget.CardView>
 
@@ -124,6 +132,7 @@
         app:cornerRadius="30dp"
         app:icon="@drawable/account"
         app:iconSize="45dp"
+        app:iconTint="#F3EDED"
         app:layout_constraintBottom_toTopOf="@+id/cardView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.666"

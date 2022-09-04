@@ -47,14 +47,16 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/photography"
+                android:id="@+id/cricket"
                 android:layout_width="190dp"
                 android:layout_height="200dp"
                 android:backgroundTint="#1f2240"
 
                 android:text="CRICKET"
                 android:textAlignment="center"
+                android:textColor="#F1EEEE"
                 android:textSize="20sp"
+                app:cornerRadius="@dimen/_20sdp"
                 tools:ignore="RtlCompat" />
 
             <Button
@@ -66,8 +68,10 @@
                 android:backgroundTint="#1f2240"
                 android:text="BASKETBALL"
                 android:textAlignment="center"
+                android:textColor="#F3EFEF"
                 android:textSize="20sp"
-                tools:ignore="RtlCompat" />
+                tools:ignore="RtlCompat"
+                app:cornerRadius="@dimen/_20sdp"/>
 
             <Button
                 android:id="@+id/football"
@@ -75,7 +79,9 @@
                 android:layout_height="200dp"
                 android:backgroundTint="#1f2240"
                 android:text="FOOTBALL"
+                app:cornerRadius="@dimen/_20sdp"
                 android:textAlignment="center"
+                android:textColor="#F1EFEF"
                 android:textSize="20sp"
                 tools:ignore="RtlCompat" />
 
@@ -88,17 +94,20 @@
                 android:backgroundTint="#1f2240"
                 android:text="NETBALL"
                 android:textAlignment="center"
+                android:textColor="#EFEEEE"
                 android:textSize="20sp"
-                tools:ignore="RtlCompat" />
+                tools:ignore="RtlCompat"
+                app:cornerRadius="@dimen/_20sdp"/>
 
             <Button
                 android:id="@+id/ttennis"
                 android:layout_width="190dp"
                 android:layout_height="200dp"
                 android:backgroundTint="#1f2240"
-
+                app:cornerRadius="@dimen/_20sdp"
                 android:text="TABLE TENNIS"
                 android:textAlignment="center"
+                android:textColor="#EFE5E5"
                 android:textSize="18sp"
                 tools:ignore="RtlCompat" />
 
@@ -107,13 +116,15 @@
                 android:layout_width="190dp"
                 android:layout_height="200dp"
                 android:layout_marginStart="200dp"
+                android:layout_marginLeft="200dp"
                 android:layout_marginTop="-200dp"
                 android:backgroundTint="#1f2240"
                 android:text="TENNIS"
                 android:textAlignment="center"
+                android:textColor="#F4F1F1"
                 android:textSize="20sp"
-                android:layout_marginLeft="200dp"
-                tools:ignore="RtlCompat" />
+                tools:ignore="RtlCompat"
+                app:cornerRadius="@dimen/_20sdp"/>
 
 
             <Button
@@ -123,8 +134,10 @@
                 android:backgroundTint="#1f2240"
                 android:text="VOLLEYBALL"
                 android:textAlignment="center"
+                android:textColor="#EAE3E3"
                 android:textSize="20sp"
-                tools:ignore="RtlCompat" />
+                tools:ignore="RtlCompat"
+                app:cornerRadius="@dimen/_20sdp"/>
 
             <Button
                 android:id="@+id/badminton"
@@ -133,9 +146,10 @@
                 android:layout_marginStart="200dp"
                 android:layout_marginTop="-200dp"
                 android:backgroundTint="#1f2240"
-
+                app:cornerRadius="@dimen/_20sdp"
                 android:text="BADMINTON"
                 android:textAlignment="center"
+                android:textColor="#F1EBEB"
                 android:textSize="20sp"
                 tools:ignore="RtlCompat" />
 
@@ -148,7 +162,10 @@
                 android:text="SQUASH"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                android:gravity="center_horizontal" />
+                app:cornerRadius="@dimen/_20sdp"
+                tools:ignore="RtlCompat"
+                android:textColor="#F1EBEB"
+                />
 
             <Button
                 android:id="@+id/swimming"
@@ -160,13 +177,14 @@
                 android:text="SWIMMING"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                tools:ignore="RtlCompat" />
+                tools:ignore="RtlCompat"
+                app:cornerRadius="@dimen/_20sdp"/>
 
             <Button
                 android:id="@+id/karate"
                 android:layout_width="190dp"
                 android:layout_height="200dp"
-
+                app:cornerRadius="@dimen/_20sdp"
                 android:backgroundTint="#1f2240"
                 android:text="KARATE"
                 android:textAlignment="center"
@@ -183,7 +201,8 @@
                 android:text="RUGBY"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                tools:ignore="RtlCompat" />
+                tools:ignore="RtlCompat"
+                app:cornerRadius="@dimen/_20sdp"/>
 
             <Button
                 android:id="@+id/archery"
@@ -193,7 +212,8 @@
                 android:text="ARCHERY"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                tools:ignore="RtlCompat" />
+                tools:ignore="RtlCompat"
+                app:cornerRadius="@dimen/_20sdp"/>
 
             <Button
                 android:id="@+id/gymnastics"
@@ -205,7 +225,8 @@
                 android:text="GYMNASTICS"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                tools:ignore="RtlCompat" />
+                tools:ignore="RtlCompat"
+                app:cornerRadius="@dimen/_20sdp" />
 
 
 

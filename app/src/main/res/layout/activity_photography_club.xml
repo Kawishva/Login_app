@@ -2,14 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/photography"
+    android:id="@+id/cricket"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/photography"
     tools:context="com.example.login_app.Photography_club">
 
     <TextView
-        android:id="@+id/photography"
+        android:id="@+id/cricket"
         android:layout_width="241dp"
         android:layout_height="35dp"
         android:layout_marginStart="10dp"
@@ -45,7 +45,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/photography"
+        app:layout_constraintStart_toEndOf="@+id/cricket"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
@@ -59,7 +59,7 @@
         android:textSize="9dp"
         app:layout_constraintEnd_toStartOf="@+id/activitybtn"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/photography"
+        app:layout_constraintTop_toBottomOf="@+id/cricket"
         android:layout_marginRight="39dp" />
 
     <Button
@@ -71,7 +71,7 @@
         android:text="ACTIVITIES"
         android:textSize="9dp"
         app:layout_constraintStart_toEndOf="@+id/infobtn"
-        app:layout_constraintTop_toBottomOf="@+id/photography" />
+        app:layout_constraintTop_toBottomOf="@+id/cricket" />
 
     <Button
         android:id="@+id/joinbtn"

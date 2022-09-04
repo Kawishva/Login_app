@@ -15,14 +15,14 @@ public class Sports extends AppCompatActivity implements View.OnClickListener {
         setContentView(R.layout.activity_sports);
         Button cricket;
 
-        cricket=(Button) findViewById(R.id.photography);
+        cricket=(Button) findViewById(R.id.cricket);
         cricket.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.photography:
+            case R.id.cricket:
                 startActivity(new Intent(this,cricket.class));
         }
     }
