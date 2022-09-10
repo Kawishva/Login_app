@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login_app">
         <activity
+            android:name=".upcoming_cricket"
+            android:exported="false" />
+        <activity
+            android:name=".photography"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
             android:name=".cricket"
             android:exported="false" />
         <activity

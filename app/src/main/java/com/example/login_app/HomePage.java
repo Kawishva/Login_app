@@ -11,7 +11,7 @@ import android.widget.Button;
 
 public class HomePage extends AppCompatActivity {
 
-    private Button lms,club_btn,location_btn,sports;
+    private Button lms,club_btn,location_btn,sports,profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +53,13 @@ public class HomePage extends AppCompatActivity {
             openSports();
         }
     });
+    profile=(Button)findViewById(R.id.profile);
+    profile.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            openProfile();
+        }
+    });
     }
 
     private void gotoUrl(String s) {
@@ -79,5 +86,8 @@ public class HomePage extends AppCompatActivity {
         Intent intent =new Intent(this,location_int.class);
         startActivity(intent);
     }
-
+    public void openProfile(){
+        Intent intent=new Intent(this,profile.class);
+        startActivity(intent);
+    }
 }

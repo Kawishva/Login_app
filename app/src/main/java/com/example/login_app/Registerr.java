@@ -4,10 +4,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,15 +19,14 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class Registerr extends AppCompatActivity implements View.OnClickListener{
+public class Registerr extends AppCompatActivity implements View.OnClickListener,AdapterView.OnItemSelectedListener{
     private FirebaseAuth mAuth;
     private EditText eEmail;
     private  EditText eName;
     private EditText ePassword;
     private EditText eConfirm;
     private Button Regbtn;
-
-
+    private Spinner faculty;
 
 
 
@@ -48,6 +49,11 @@ public class Registerr extends AppCompatActivity implements View.OnClickListener
 
         eConfirm=(EditText) findViewById(R.id.editTextTextConfirm);
 
+        faculty=findViewById(R.id.faculties);
+        String[] faculties=getResources().getStringArray(R.array.faculty);
+        ArrayAdapter adapter=new ArrayAdapter(this, android.R.layout.simple_spinner_item,faculties);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        faculty.setAdapter(adapter);
     }
 
     private void registerUser ()
@@ -136,4 +142,13 @@ public class Registerr extends AppCompatActivity implements View.OnClickListener
     }
 
 
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
+    }
 }
