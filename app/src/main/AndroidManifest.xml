@@ -8,12 +8,22 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Login_app">
+        android:theme="@style/Theme.Login_app"
+        >
+        <activity
+            android:name=".join_cricket"
+            android:exported="false" />
+        <activity
+            android:name=".single_cell_layout"
+            android:exported="false" />
+        <activity
+            android:name=".addNewEvent"
+            android:exported="false" />
         <activity
             android:name=".upcoming_cricket"
             android:exported="false" />
         <activity
-            android:name=".photography"
+            android:name=".Photography_interface"
             android:exported="false" />
         <activity
             android:name=".profile"

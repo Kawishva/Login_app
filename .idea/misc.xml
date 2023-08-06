@@ -1,45 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/drawable-v24/ic_android_black_24dp.xml" value="0.2415" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/drawable/account.xml" value="0.2705" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/drawable/clubs.xml" value="0.2705" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/drawable/lms.xml" value="0.1455" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout-v21/activity_cricket.xml" value="0.1" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_ar_club.xml" value="0.536" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_bridge_club.xml" value="0.17229585292860197" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_chess_club.xml" value="0.17229585292860197" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_club_main.xml" value="0.2" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_cricket.xml" value="0.391705069124424" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_dancing_club.xml" value="0.17229585292860197" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_drop.xml" value="0.1899365367180417" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_echo_club.xml" value="0.17229585292860197" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_eclub.xml" value="0.1" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_home_page.xml" value="0.21794871794871795" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_lms_main2.xml" value="0.1065608023401588" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_location_int.xml" value="0.1" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_photography.xml" value="0.264" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_photography_club.xml" value="0.1" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_profile.xml" value="0.21804189824711415" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_register.xml" value="0.264" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_registerr.xml" value="0.264" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_rotaract_club.xml" value="0.21804189824711415" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_rowing_club.xml" value="0.21804189824711415" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_scout_club.xml" value="0.21804189824711415" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_sports.xml" value="0.176" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_toastmasters_club.xml" value="0.1" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/activity_upcoming_cricket.xml" value="0.264" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/dashboard_item_1.xml" value="0.1267361111111111" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/layout/strings.xml" value="0.1899365367180417" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/Login_app/app/src/main/res/menu/menu.xml" value="0.6375" />
-      </map>
-    </option>
-  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

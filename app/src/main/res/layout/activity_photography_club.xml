@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/photography"
-    tools:context="com.example.login_app.Photography_club">
+    tools:context="com.example.login_app.Photography_interface">
 
     <TextView
         android:id="@+id/cricket"

@@ -9,7 +9,7 @@
     android:id="@+id/cricket"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.login_app.photography"
+    tools:context="com.example.login_app.cricket"
     >
 
     <TextView

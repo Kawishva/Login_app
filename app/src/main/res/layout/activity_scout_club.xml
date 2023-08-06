@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/scouting2"
-    tools:context="com.example.login_app.Scout_club">
+    tools:context="com.example.login_app.RoverScout_club_interface">
 
     <TextView
         android:id="@+id/club_name"

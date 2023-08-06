@@ -114,6 +114,7 @@ public class Registerr extends AppCompatActivity implements View.OnClickListener
                                             public void onComplete(@NonNull Task<Void> task) {
                                                 if (task.isSuccessful()) {
                                                     Toast.makeText(Registerr.this, "User has been registered successfully", Toast.LENGTH_LONG).show();
+                                                    startActivity(new Intent(Registerr.this,HomePage.class));
 
                                                 } else {
                                                     Toast.makeText(Registerr.this, "Failed to register! Try again", Toast.LENGTH_LONG).show();
@@ -135,7 +136,7 @@ public class Registerr extends AppCompatActivity implements View.OnClickListener
         switch(v.getId()){
             case R.id.registerButton:
                 registerUser();
-                startActivity(new Intent(this,MainActivity.class));
+
                 break;
 
         }
